@@ -53,7 +53,9 @@ if(!($_SESSION)){
 <div id="particles-js">
     <form name="login" method="post" action="">
         <div class="row justify-content-md-center">
-            <div class="col-md6 col-md-offset-3">
+            <div class="col-md6">
+                <br><br><br>
+                <h3>Siz tizimga kirdingiz!</h3>
                 <p class="card-title"><?=$_SESSION['username']?></p>
                 <p class="card-text"><?=$_SESSION['email']?></p>
                 <input class="btn bnt-primary" type="submit" name="welcome" value="Logout" />
