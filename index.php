@@ -10,6 +10,8 @@ if($_POST['login']){
     if ($user) {
         // Registration Success
         header("location:home.php");
+
+
     } else {
         // Registration Failed
         echo "<script>alert('Emailid / Password Not Match')</script>";
